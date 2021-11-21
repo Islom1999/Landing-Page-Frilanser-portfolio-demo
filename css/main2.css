@@ -1,0 +1,141 @@
+
+p{
+    line-height: 25px;
+    padding: 14px 0px;
+}
+
+/* header start */
+header{
+    background-image: url("../imegs/images/pexels-olia-danilevich-4974914.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.bg-1{
+    width: 100%;
+    height: 100vh;
+
+}
+
+header .bg-1 {
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+/* header end */
+
+
+/* section start */
+section{
+    margin-top: 50px;
+}
+.about-image{
+    width: 100%;
+}
+.services{
+    padding: 50px 0px;
+}
+.margin-1{
+    margin-top: 30px;
+}
+.bg-2 .container > .parent > .bg-padding{
+    padding-top: 50px;
+}
+
+.bg-2{
+    background-color: #F6F7FD;
+    margin-bottom: 50px;
+}
+.in-col1{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.col4{
+    width: calc(33.33% - 3%);
+    background-color: white;
+    margin:30px 0px 30px 3%; 
+}
+
+
+.in-col2{
+    box-shadow: 0px  0px 2px #333;
+    padding:20px;
+    text-align: center;
+}
+.in-col2 i{
+    font-size: 50px;
+    color: blue;
+}
+
+.our-portfolio{
+    padding: 50px 0px;
+    background-color: #F6F7FD;
+}
+.flex-center li{
+    list-style: none;
+    font-weight: 600;
+    margin: 20px;
+    text-transform: capitalize;
+}
+.in-col-jpg img{
+    width: 100%;
+}
+
+/* section end */
+
+
+/* aside start */
+.clients{
+    color:white;
+    background-image: url("..//imegs/images/pexels-bich-tran-669996.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.blog{
+    padding: 80px 0px;
+
+}
+.blog img{
+    width: 100%;
+}
+/* aside end */
+
+
+/* footer start */
+.bg-3{
+    padding: 50px 0px;
+    background-color: #F6F7FD;
+}
+.bg-footer{
+    background-image: url("../imegs/images/footer-img-2.png");
+    padding: 50px 0px;
+    width: 100%;
+    min-height: 130vh;
+    position: relative;
+}
+.bg-footer input,
+.bg-footer select,
+.bg-footer textarea{
+    width: 100%;
+}
+input{
+    width: 100%;
+}
+.flex-column{
+    position: absolute;
+    top: -130px;
+    left: 16.6% ;
+}
+.registration{
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(58, 48, 48);
+}
+.min-width{
+    max-width: none;
+}
+
+/* footer end */

@@ -1,0 +1,147 @@
+
+/* header start */
+body{
+    background-color: #D70D25
+}
+.parent-box{
+    width: 100%;
+    min-height:100vh;
+    position: relative;
+}
+.box1{
+    color: white;
+}
+.box1 h1{
+    padding: 100px 60px 25px 0px;
+    font-size: 60px;
+}
+.box1 p{
+    line-height: 20px;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+.box2{
+    position: relative;
+}
+.box2 img{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    animation-name: watch-1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes watch-1{
+    0%{
+        top: 60px;
+    }
+    50%{
+        top: 90px;
+    }
+    100%{
+        top: 60px;
+    }
+}
+
+.box3{
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border: 5px solid #DA2036;
+    position: absolute;
+    top: 180px;
+    left: -65px;
+    animation-name: box3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes box3{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.box4{
+    width: 120px;
+    height: 120px;
+    background-color: #DA2036;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 250px;
+    animation-name: box4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes box4{
+    0%{
+        left: 250px;
+    }
+    50%{
+        left: 400px;
+    }
+    100%{
+        left: 250px;
+    }
+}
+
+.box5{
+    width: 200px;
+    height: 200px;
+    background-color: #DA2036;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 90%;
+    animation-name: box5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes box5{
+    0%{
+        left: 90%;
+    }
+    50%{
+        left: 95%;
+    }
+    100%{
+        left: 90%;
+    }
+}
+
+.box6{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-left: 8px solid #DA2036;
+    border-bottom: 8px solid #DA2036;
+    border-right: none;
+    border-top: none;
+    position: absolute;
+    top: 420px;
+    left: 550px;
+    animation-name: box6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes box6{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+/* header end */
+
+
